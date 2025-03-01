@@ -1,0 +1,85 @@
+body {
+  
+    background-image: url("../img/fondo.jpg");
+}
+
+.perfil {
+    background-color: aliceblue;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #787777;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    text-align: center;
+}
+
+.seccion {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icono img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.datos {
+    flex-grow: 1;
+}
+
+.subtitulo {
+    margin-bottom: 10px;
+}
+
+.tabla-datos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-datos td {
+    padding: 8px;
+    border-bottom: 1px solid #4e4a4a;
+}
+
+.tabla-datos td:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.logo{
+    width: 95px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.titulo-barra{
+    background-color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(144, 17, 203);
+}
+
+.boton-actualizar{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .cuadrado {
+        width: calc(33.33% - 10px); /* Ancho de cada cuadrado para pantallas más grandes */
+        margin: 10px; /* Espaciado entre los cuadrados */
+    }
+}

@@ -1,0 +1,40 @@
+.mensaje-exito {
+    color: #155724; /* Color del texto en verde */
+    background-color: #d4edda; /* Fondo verde suave */
+    border-color: #c3e6cb; /* Borde verde */
+    padding: 10px; /* Espaciado interior */
+    margin-bottom: 15px; /* Margen inferior */
+}
+
+.mensaje-error {
+    color: #721c24; /* Color del texto en rojo oscuro */
+    background-color: #f8d7da; /* Fondo rojo suave */
+    border-color: #f5c6cb; /* Borde rojo */
+    padding: 10px; /* Espaciado interior */
+    margin-bottom: 15px; /* Margen inferior */
+}
+.logo{
+    width: 95px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+
+}
+
+body{
+    background-image: url("../../img/fondo.jpg");
+}
+
+.container{
+    background-color: aliceblue;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(144, 17, 203);
+}
+
+.titulo-barra {
+    background-color: white;
+}

@@ -1,0 +1,48 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("img/fondo.jpg");
+}
+
+.formulario {
+    background-color: #8de266; /* Color de fondo del formulario */
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo_vet {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 300px; /* Mantiene la proporción de aspecto */
+    border-radius: 510px;
+}
+/* Estilos adicionales según sea necesario */

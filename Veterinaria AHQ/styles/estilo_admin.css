@@ -1,0 +1,92 @@
+/* Estilo cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("fondo.jpg");
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo encabezado de la página */
+h1 {
+    color: #333;
+    font-family: 'Arial', sans-serif; /* Nueva línea para la fuente */
+}
+
+/* Estilo formulario de la página */
+form {
+    background-color: #8de266;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif; /* Nueva línea para la fuente */
+}
+
+/* Estilo formulario de la página */
+form.inv {
+    background-color: #3a4435;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 22%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif; /* Nueva línea para la fuente */
+}
+
+/* Estilo etiquetas */
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilo entrada de texto formulario*/
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif; /* Nueva línea para la fuente */
+}
+
+/* Estilo botón "Registrar Mascota" */
+input[type="submit"] {
+    background-color: #1d6408;
+    color: #eff5ed;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo al pasar el cursor sobre botón*/
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/**********************************************************************************************************************/
+/* Configuración Logo */
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilo para el logotipo */
+.logo_vet {
+    width: 250px;
+    /* Ajusta el ancho según tus necesidades */
+    height: auto;
+    /* Mantiene la proporción de aspecto */
+}

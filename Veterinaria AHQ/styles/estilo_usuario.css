@@ -1,0 +1,55 @@
+#calendar {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f4f9f4; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
+    font-family: Arial, sans-serif; /* Agregado: Fuente */
+}
+body{
+    background-image: url("../../imagenes/fondo.jpg");
+    font-family: Arial, sans-serif; /* Agregado: Fuente */
+}
+
+.fc-toolbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.fc-day-header {
+    background-color: #c2e5c1; 
+    color: #333;
+    font-weight: bold;
+    border: none;
+}
+
+.fc-day {
+    background-color: #e7f3e7; 
+    border: 1px solid #d5d5d5;
+    text-align: center;
+}
+
+.fc-event {
+    background-color: #4caf50; 
+    color: #fff;
+    border: none;
+}
+
+.fc-button {
+    background-color: #4caf50; 
+    color: #fff;
+    border: none;
+}
+
+.fc-button:hover {
+    background-color: #45a049; 
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: #45a049; 
+    font-family: Arial, sans-serif; /* Agregado: Fuente */
+}
